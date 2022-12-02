@@ -81,7 +81,7 @@ export default {
         this.$router.push({ name: "notes" });
       }).catch(function (error) {
         // handle error
-        alert("Something went wrong ");
+        alert("Something wrong !");
         console.log(error);
       })
     },
