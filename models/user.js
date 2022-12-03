@@ -15,6 +15,7 @@ let User = new Schema(
       type: String,
       required: true,
     },
+
   },
   {
     collection: "users",
